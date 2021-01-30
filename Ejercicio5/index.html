@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Directivas</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+</head>
+<body>
+    <div id="vm">
+        <!-- <img :src="imagen">
+        <div v-text:="texto">
+            {{texto}}
+        </div>
+        <div v-html="texto">
+            
+        </div>
+        <template v-if='mostrar'>
+            <h3>Titulo</h3>
+            <p>parrafo</p> 
+            Este es el primer div
+        </template>
+        <div v-if='parrafo==1'>Este es el primer div</div>
+        <div v-else-if='parrafo==2'>Este es el segundo div</div>
+        <div v-else-if='parrafo==3'>Este es el tercer div</div>
+        <div v-else>Este no es ni 1 ni 2 ni 3</div>
+        <div v-show='mostrar'>
+            <h3>Titulo</h3>
+            <p>parrafo</p> 
+            Este es el primer div
+        </div>
+        <div>Este es el segundo div</div>
+        <div>
+            <ul>
+                <template v-for="(pais, indice) in paises">
+                <li>
+                   {{indice+1}} - {{pais}}
+                </li>
+                <hr>
+                </template>
+            </ul>
+        </div>-->
+        <div>
+            <ul>
+                <li v-for="(valor, llave) in empleado"><!--se puede usar "in" o "of"-->
+                   {{llave}} - {{valor}}
+                </li>
+            </ul>
+        </div>
+    </div>
+    <Script src="vue.js"></Script>
+</body>
+</html>
